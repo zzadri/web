@@ -1,11 +1,5 @@
 # ⚠️ This project is a Fork of the Disbox Web Client project ⚠️
 
-``` 
-
-Disbox here: https://disboxapp.github.io/web
-Disbox code here : https://github.com/DisboxApp/web
-
-```
 
 # Features
 
@@ -35,6 +29,13 @@ Disbox code here : https://github.com/DisboxApp/web
 
 
 ## The Base of project
+
+``` 
+
+Disbox here: https://disboxapp.github.io/web
+Disbox code here : https://github.com/DisboxApp/web
+
+```
 
 ## Disbox Web Client
 
