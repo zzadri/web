@@ -271,19 +271,6 @@ class DisboxFileManager {
         return this.getFile(parentPath);
     }
 
-    fetchDirectoryChildren(path) {
-        if (path === '') {
-            return this.fileTree.children || {};
-        } else {
-            const file = this.getFile(path);
-            if (!file || file.type !== 'directory') {
-                throw new Error(`Invalid path or not a directory: ${path}`);
-            }
-            return file.children || {};
-        }
-    }
-    
-
     async updateFile(path, changes) {
         const file = this.getFile(path, false);
         if (!file) {
@@ -471,5 +458,3 @@ class DisboxFileManager {
 }
 
 export default DisboxFileManager;
-
-
